@@ -27,6 +27,6 @@ namespace MusicBusiness.src.Infrastructure
             _spotify = new SpotifyClient(spotifyAPI.WithToken(spotifyConfiguration.Value.ClientID));
         }
 
-
+        
     }
 }
