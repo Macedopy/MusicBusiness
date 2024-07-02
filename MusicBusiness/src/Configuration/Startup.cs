@@ -11,8 +11,8 @@ namespace MusicBusiness.Configuration
         {
             services.AddAuthentication().AddGoogle(options =>
             {
-                options.ClientId = "870686917869-5kmjnrr2kcf1tr78dtj33vbb9j3mtot3.apps.googleusercontent.com";
-                options.ClientSecret = "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";
+                options.ClientId = "";
+                options.ClientSecret = "";
             });
         }
     }
