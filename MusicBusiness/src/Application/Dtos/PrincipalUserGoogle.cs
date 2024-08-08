@@ -17,6 +17,6 @@ namespace MusicBusiness.src.Application.Dtos
         [Display(Name = "Remember me")]
         public bool RememberMe { get; init; } = default!;
         public string ReturnUrl { get; init; } = default!;
-        public IList<AuthenticationScheme> ExternalLogins { get; set; }
-    }
+        
+        }
 }
